@@ -3,6 +3,7 @@ import App from "../App";
 import HomePage from "../pages/HomePage";
 import AllApps from "../pages/AllApps";
 import Install from "../pages/Install";
+import NotFound404 from "../pages/Error";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,7 @@ export const router = createBrowserRouter([
                 element: <Install></Install>
 
             }
-        ]
+        ],
+        errorElement: <NotFound404></NotFound404>
     },
 ]);
