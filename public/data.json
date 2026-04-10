@@ -10,11 +10,26 @@
     "ratingAvg": 4.5,
     "downloads": "5000M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 2400000 },
-      { "name": "3 star", "count": 8400000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 136000000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 2400000
+      },
+      {
+        "name": "3 star",
+        "count": 8400000
+      },
+      {
+        "name": "4 star",
+        "count": 25000000
+      },
+      {
+        "name": "5 star",
+        "count": 136000000
+      }
     ]
   },
   {
@@ -28,11 +43,26 @@
     "ratingAvg": 4.4,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1800000 },
-      { "name": "3 star", "count": 4200000 },
-      { "name": "4 star", "count": 9800000 },
-      { "name": "5 star", "count": 14900000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1800000
+      },
+      {
+        "name": "3 star",
+        "count": 4200000
+      },
+      {
+        "name": "4 star",
+        "count": 9800000
+      },
+      {
+        "name": "5 star",
+        "count": 14900000
+      }
     ]
   },
   {
@@ -46,11 +76,26 @@
     "ratingAvg": 4.2,
     "downloads": "5000M",
     "ratings": [
-      { "name": "1 star", "count": 8000000 },
-      { "name": "2 star", "count": 10000000 },
-      { "name": "3 star", "count": 22000000 },
-      { "name": "4 star", "count": 45000000 },
-      { "name": "5 star", "count": 75000000 }
+      {
+        "name": "1 star",
+        "count": 8000000
+      },
+      {
+        "name": "2 star",
+        "count": 10000000
+      },
+      {
+        "name": "3 star",
+        "count": 22000000
+      },
+      {
+        "name": "4 star",
+        "count": 45000000
+      },
+      {
+        "name": "5 star",
+        "count": 75000000
+      }
     ]
   },
   {
@@ -64,11 +109,26 @@
     "ratingAvg": 4.4,
     "downloads": "3000M",
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 13000000 },
-      { "name": "5 star", "count": 17000000 }
+      {
+        "name": "1 star",
+        "count": 3000000
+      },
+      {
+        "name": "2 star",
+        "count": 5000000
+      },
+      {
+        "name": "3 star",
+        "count": 7000000
+      },
+      {
+        "name": "4 star",
+        "count": 13000000
+      },
+      {
+        "name": "5 star",
+        "count": 17000000
+      }
     ]
   },
   {
@@ -82,11 +142,26 @@
     "ratingAvg": 4.3,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1700000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 8800000 },
-      { "name": "5 star", "count": 12300000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1700000
+      },
+      {
+        "name": "3 star",
+        "count": 4000000
+      },
+      {
+        "name": "4 star",
+        "count": 8800000
+      },
+      {
+        "name": "5 star",
+        "count": 12300000
+      }
     ]
   },
   {
@@ -100,11 +175,26 @@
     "ratingAvg": 4.5,
     "downloads": "10000M",
     "ratings": [
-      { "name": "1 star", "count": 4000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 13000000 },
-      { "name": "4 star", "count": 42000000 },
-      { "name": "5 star", "count": 79000000 }
+      {
+        "name": "1 star",
+        "count": 4000000
+      },
+      {
+        "name": "2 star",
+        "count": 7000000
+      },
+      {
+        "name": "3 star",
+        "count": 13000000
+      },
+      {
+        "name": "4 star",
+        "count": 42000000
+      },
+      {
+        "name": "5 star",
+        "count": 79000000
+      }
     ]
   },
   {
@@ -118,11 +208,26 @@
     "ratingAvg": 4.6,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 14600000 }
+      {
+        "name": "1 star",
+        "count": 700000
+      },
+      {
+        "name": "2 star",
+        "count": 900000
+      },
+      {
+        "name": "3 star",
+        "count": 1800000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 14600000
+      }
     ]
   },
   {
@@ -136,11 +241,26 @@
     "ratingAvg": 4.3,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1900000 },
-      { "name": "3 star", "count": 4200000 },
-      { "name": "4 star", "count": 8800000 },
-      { "name": "5 star", "count": 9800000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1900000
+      },
+      {
+        "name": "3 star",
+        "count": 4200000
+      },
+      {
+        "name": "4 star",
+        "count": 8800000
+      },
+      {
+        "name": "5 star",
+        "count": 9800000
+      }
     ]
   },
   {
@@ -154,11 +274,26 @@
     "ratingAvg": 4.4,
     "downloads": "10000M",
     "ratings": [
-      { "name": "1 star", "count": 6000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 38000000 },
-      { "name": "5 star", "count": 96000000 }
+      {
+        "name": "1 star",
+        "count": 6000000
+      },
+      {
+        "name": "2 star",
+        "count": 8000000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 38000000
+      },
+      {
+        "name": "5 star",
+        "count": 96000000
+      }
     ]
   },
   {
@@ -172,11 +307,26 @@
     "ratingAvg": 4.0,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 2200000 },
-      { "name": "2 star", "count": 3400000 },
-      { "name": "3 star", "count": 4200000 },
-      { "name": "4 star", "count": 7200000 },
-      { "name": "5 star", "count": 13000000 }
+      {
+        "name": "1 star",
+        "count": 2200000
+      },
+      {
+        "name": "2 star",
+        "count": 3400000
+      },
+      {
+        "name": "3 star",
+        "count": 4200000
+      },
+      {
+        "name": "4 star",
+        "count": 7200000
+      },
+      {
+        "name": "5 star",
+        "count": 13000000
+      }
     ]
   },
   {
@@ -190,11 +340,26 @@
     "ratingAvg": 4.6,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 43500000 }
+      {
+        "name": "1 star",
+        "count": 2000000
+      },
+      {
+        "name": "2 star",
+        "count": 2500000
+      },
+      {
+        "name": "3 star",
+        "count": 5000000
+      },
+      {
+        "name": "4 star",
+        "count": 12000000
+      },
+      {
+        "name": "5 star",
+        "count": 43500000
+      }
     ]
   },
   {
@@ -208,11 +373,26 @@
     "ratingAvg": 4.3,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 4000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 11000000 },
-      { "name": "5 star", "count": 19000000 }
+      {
+        "name": "1 star",
+        "count": 4000000
+      },
+      {
+        "name": "2 star",
+        "count": 5000000
+      },
+      {
+        "name": "3 star",
+        "count": 7000000
+      },
+      {
+        "name": "4 star",
+        "count": 11000000
+      },
+      {
+        "name": "5 star",
+        "count": 19000000
+      }
     ]
   },
   {
@@ -226,11 +406,26 @@
     "ratingAvg": 4.6,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2100000 },
-      { "name": "3 star", "count": 4100000 },
-      { "name": "4 star", "count": 8600000 },
-      { "name": "5 star", "count": 19700000 }
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 2100000
+      },
+      {
+        "name": "3 star",
+        "count": 4100000
+      },
+      {
+        "name": "4 star",
+        "count": 8600000
+      },
+      {
+        "name": "5 star",
+        "count": 19700000
+      }
     ]
   },
   {
@@ -244,11 +439,26 @@
     "ratingAvg": 4.4,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 1800000 },
-      { "name": "3 star", "count": 3200000 },
-      { "name": "4 star", "count": 7200000 },
-      { "name": "5 star", "count": 11800000 }
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 1800000
+      },
+      {
+        "name": "3 star",
+        "count": 3200000
+      },
+      {
+        "name": "4 star",
+        "count": 7200000
+      },
+      {
+        "name": "5 star",
+        "count": 11800000
+      }
     ]
   },
   {
@@ -262,15 +472,30 @@
     "ratingAvg": 4.7,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 8700000 }
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 700000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 3200000
+      },
+      {
+        "name": "5 star",
+        "count": 8700000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Garena_Free_Fire_official_logo.png/220px-Garena_Free_Fire_official_logo.png",
+    "image": "https://i.ibb.co.com/mry3Mf6P/fff.webp",
     "title": "Garena Free Fire",
     "companyName": "Garena International I",
     "id": 16,
@@ -280,15 +505,30 @@
     "ratingAvg": 4.2,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 8000000 },
-      { "name": "2 star", "count": 9000000 },
-      { "name": "3 star", "count": 14000000 },
-      { "name": "4 star", "count": 22000000 },
-      { "name": "5 star", "count": 39000000 }
+      {
+        "name": "1 star",
+        "count": 8000000
+      },
+      {
+        "name": "2 star",
+        "count": 9000000
+      },
+      {
+        "name": "3 star",
+        "count": 14000000
+      },
+      {
+        "name": "4 star",
+        "count": 22000000
+      },
+      {
+        "name": "5 star",
+        "count": 39000000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Mobile_Legends_Bang_Bang_Logo.png/220px-Mobile_Legends_Bang_Bang_Logo.png",
+    "image": "https://i.ibb.co.com/GQpLstLV/mlbb.webp",
     "title": "Mobile Legends: Bang Bang",
     "companyName": "Moonton",
     "id": 17,
@@ -298,15 +538,30 @@
     "ratingAvg": 4.4,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 3000000 },
-      { "name": "2 star", "count": 4000000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 29000000 }
+      {
+        "name": "1 star",
+        "count": 3000000
+      },
+      {
+        "name": "2 star",
+        "count": 4000000
+      },
+      {
+        "name": "3 star",
+        "count": 7000000
+      },
+      {
+        "name": "4 star",
+        "count": 15000000
+      },
+      {
+        "name": "5 star",
+        "count": 29000000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Subway_Surfers_Logo.png/220px-Subway_Surfers_Logo.png",
+    "image": "https://i.ibb.co.com/Q7KgLFTM/ss.webp",
     "title": "Subway Surfers",
     "companyName": "Sybo Games",
     "id": 18,
@@ -316,15 +571,30 @@
     "ratingAvg": 4.5,
     "downloads": "1000M",
     "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 5000000 },
-      { "name": "4 star", "count": 11000000 },
-      { "name": "5 star", "count": 20500000 }
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 2000000
+      },
+      {
+        "name": "3 star",
+        "count": 5000000
+      },
+      {
+        "name": "4 star",
+        "count": 11000000
+      },
+      {
+        "name": "5 star",
+        "count": 20500000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Minecraft_cover.png/220px-Minecraft_cover.png",
+    "image": "https://i.ibb.co.com/7qjZdP6/mct.webp",
     "title": "Minecraft",
     "companyName": "Mojang Studios",
     "id": 19,
@@ -334,15 +604,30 @@
     "ratingAvg": 4.6,
     "downloads": "100M",
     "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 2200000 },
-      { "name": "5 star", "count": 8300000 }
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 2200000
+      },
+      {
+        "name": "5 star",
+        "count": 8300000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Among_Us_cover_art.jpg/220px-Among_Us_cover_art.jpg",
+    "image": "https://i.ibb.co.com/mFH7BfFm/amg.webp",
     "title": "Among Us",
     "companyName": "Innersloth",
     "id": 20,
@@ -352,15 +637,30 @@
     "ratingAvg": 4.3,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 2200000 },
-      { "name": "5 star", "count": 3800000 }
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 600000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 2200000
+      },
+      {
+        "name": "5 star",
+        "count": 3800000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Roblox_Mobile_Icon.png/220px-Roblox_Mobile_Icon.png",
+    "image": "https://i.ibb.co.com/PswHSRrQ/robolox.webp",
     "title": "Roblox",
     "companyName": "Roblox Corporation",
     "id": 21,
@@ -370,34 +670,63 @@
     "ratingAvg": 4.4,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 11000000 }
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 1500000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 11000000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/PNG_transparency_demonstration_1.png/220px-PNG_transparency_demonstration_1.png",
+    "image": "https://i.ibb.co.com/xSZ0ps8X/codm.webp",
     "title": "Call of Duty: Mobile",
     "companyName": "Activision Publishing",
     "id": 22,
     "description": "Call of Duty: Mobile brings the iconic franchise to your fingertips. Experience console-quality graphics with thrilling multiplayer modes, including Battle Royale, Team Deathmatch, and more. Unlock iconic operators, weapons, and gear from the COD universe. Play with friends across the globe in fast-paced, action-packed matches anytime, anywhere.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/COD_Mobile_Cover.jpg/220px-COD_Mobile_Cover.jpg",
     "size": 2000,
     "reviews": "38000K",
     "ratingAvg": 4.5,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 9000000 },
-      { "name": "5 star", "count": 21500000 }
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 2000000
+      },
+      {
+        "name": "3 star",
+        "count": 4000000
+      },
+      {
+        "name": "4 star",
+        "count": 9000000
+      },
+      {
+        "name": "5 star",
+        "count": 21500000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Clash_Royale_key_art.jpg/220px-Clash_Royale_key_art.jpg",
+    "image": "https://i.ibb.co.com/N61fcNGQ/cor.webp",
     "title": "Clash Royale",
     "companyName": "Supercell",
     "id": 23,
@@ -407,30 +736,60 @@
     "ratingAvg": 4.4,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1800000 },
-      { "name": "3 star", "count": 3500000 },
-      { "name": "4 star", "count": 7500000 },
-      { "name": "5 star", "count": 16000000 }
+      {
+        "name": "1 star",
+        "count": 1200000
+      },
+      {
+        "name": "2 star",
+        "count": 1800000
+      },
+      {
+        "name": "3 star",
+        "count": 3500000
+      },
+      {
+        "name": "4 star",
+        "count": 7500000
+      },
+      {
+        "name": "5 star",
+        "count": 16000000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Valorant_Mobile_logo.png/220px-Valorant_Mobile_logo.png",
+    "image": "https://i.ibb.co.com/4w45NZg5/v.webp",
     "title": "Valorant Mobile",
     "companyName": "Riot Games",
     "id": 24,
     "description": "Valorant Mobile brings Riot Games' tactical 5v5 shooter to your phone. Choose from a diverse roster of Agents with unique abilities and compete in precise gunplay-based matches. Plan your strategy, coordinate with your team, and outmaneuver opponents to plant or defuse the Spike. Dominate the competition in this thrilling competitive mobile FPS.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/220px-Valorant_logo_-_pink_color_version.svg.png",
+   
     "size": 1800,
     "reviews": "5000K",
     "ratingAvg": 4.5,
     "downloads": "100M",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 2800000 }
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 500000
+      },
+      {
+        "name": "4 star",
+        "count": 1200000
+      },
+      {
+        "name": "5 star",
+        "count": 2800000
+      }
     ]
   }
 ]
