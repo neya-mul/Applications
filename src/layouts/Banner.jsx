@@ -3,7 +3,8 @@ import banner from "../images/hero.png"
 
 export default function Banner() {
   return (
-    <div className="py-16 px-8 text-center max-w-2xl mx-auto">
+    <div className="pt-16 px-8 text-center max-w-2xl mx-auto "
+    >
 
       {/* <div className="inline-block bg-gray-100 border border-gray-200 rounded-full px-4 py-1 text-xs text-gray-500 tracking-widest uppercase mb-6">
         HERO.IO
@@ -45,7 +46,7 @@ export default function Banner() {
 
       </div>
 
-      <img src={banner} alt=""  className='my-10 mx-auto'/>
+      <img src={banner} alt=""  className='mt-10  mx-auto'/>
     </div>
   )
 }
