@@ -1,13 +1,14 @@
 import React, { use, useContext } from 'react'
 import { Link, useParams } from 'react-router'
 import { InstallAppContext } from '../contexts/AppProvider'
+import { toast } from 'react-toastify'
 
 const appPromise = fetch('/data.json')
     .then(res => res.json())
 
 
 export default function Details() {
-    const {install, setInstall} = useContext(InstallAppContext)
+    const { install, setInstall } = useContext(InstallAppContext)
 
 
     const { id } = useParams()
@@ -17,9 +18,25 @@ export default function Details() {
     // console.log(expectedApp);
     const installButton = () => {
         // console.log(context);
-        // console.log(install);    
+        // console.log(install);  
+        {
+            if (install.includes(expectedApp)) {
+                toast.error(
+                    <div>
+                        <span className='text-xl font-bold'>{expectedApp.title} </span>is already installed
+                    </div>
+                )
+                return;
+            }
+        }
+
         setInstall([...install, expectedApp])
-        
+        toast.success(
+            <div>
+                <span className='text-xl font-bold'>{expectedApp.title} </span>is installed
+            </div>
+
+        )
 
     }
 

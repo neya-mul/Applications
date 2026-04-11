@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import AppProvider, { InstallAppContext } from '../contexts/AppProvider'
+import { toast } from 'react-toastify'
 
 export default function InsallAppCard({ a }) {
   const { install, setInstall } = useContext(InstallAppContext)
@@ -9,6 +10,12 @@ export default function InsallAppCard({ a }) {
   const unInstallbutton = () => {
     setInstall(deletedApp)
     // console.log(setInstall);
+    toast.warning(
+      <div>
+        <span className='text-xl font-bold'>{a.title} </span>has uninstalled
+      </div>
+
+    )
 
 
   }
