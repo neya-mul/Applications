@@ -9,7 +9,7 @@ export default function Install() {
   // console.log(app);
 
   return (
-    <div className='container mx-auto my-20'>
+    <div className='container mx-auto py-30'>
       <div className='text-center'>
         <h1 className="text-4xl font-bold">Your Installed Apps</h1>
         <p>Explore All Trending Apps on the Market developed by us</p>

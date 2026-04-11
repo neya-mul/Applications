@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 export default function Navbar() {
    
     return (
-        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto ">
+        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto fixed z-1 p-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ export default function Navbar() {
                             `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 `
                         }>Install</NavLink></li>
 
-                    </ul>
+                    </ul> 
                 </div>
                 <img src={logo} alt="" className='w-[50px] animate-spin [animation-duration:5s]' />
                 <NavLink to="/" className="btn btn-ghost text-xl hover:bg-purple-900/15 ml-2">HERO.IO</NavLink>
