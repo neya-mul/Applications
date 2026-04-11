@@ -19,20 +19,32 @@ export default function Navbar() {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/apps">Apps</NavLink></li>
-                        <li><NavLink to="/install">Install</NavLink></li>
+                        <li><NavLink to="/" className={({ isActive }) =>
+                            `mx-2 ${isActive ? " border border-purple-500" : "" } bg-purple-950/20 `
+                        }>Home</NavLink></li>
+                        <li><NavLink to="/apps" className={({ isActive }) =>
+                            `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 `
+                        }>Apps</NavLink></li>
+                        <li><NavLink to="/install" className={({ isActive }) =>
+                            `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 `
+                        }>Install</NavLink></li>
 
                     </ul>
                 </div>
-                <img src={logo} alt="" className='w-[50px] animate-spin [animation-duration:5s]'/>
+                <img src={logo} alt="" className='w-[50px] animate-spin [animation-duration:5s]' />
                 <NavLink to="/" className="btn btn-ghost text-xl">HERO.IO</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/apps">Apps</NavLink></li>
-                    <li><NavLink to="/install">Install</NavLink></li>
+                    <li><NavLink to="/" className={({ isActive }) =>
+                        `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 `
+                    }>Home</NavLink></li>
+                    <li><NavLink to="/apps" className={({ isActive }) =>
+                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 `
+                    }>Apps</NavLink></li>
+                    <li><NavLink to="/install" className={({ isActive }) =>
+                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 `
+                    }>Install</NavLink></li>
 
                 </ul>
             </div>

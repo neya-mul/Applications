@@ -17,7 +17,7 @@ export default function Details() {
             <div className="relative w-full max-w-4xl min-h-[600px] rounded-3xl overflow-hidden">
 
                 {/* Animated Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#26215C] via-[#3C3489] to-[#085041]" />
+                <div className="absolute inset-0 bg-linear-to-br from-[#26215C] via-[#3C3489] to-[#085041]" />
                 <div className="absolute inset-0 opacity-10 animate-pulse"
                     style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '40px 40px' }}
                 />
