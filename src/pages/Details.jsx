@@ -17,7 +17,7 @@ export default function Details() {
     // console.log(expectedApp);
     const installButton = () => {
         // console.log(context);
-        console.log(install);
+        // console.log(install);    
         setInstall([...install, expectedApp])
         
 
