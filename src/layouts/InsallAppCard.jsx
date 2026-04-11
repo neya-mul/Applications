@@ -21,7 +21,7 @@ export default function InsallAppCard({ a }) {
   }
 
   return (
-    <div className='flex justify-between items-center border border-purple-900 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500 p-5 rounded-2xl'>
+    <div className='flex justify-between items-center border border-purple-900 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500 p-5 rounded-2xl my-5'>
       <div className='flex items-center gap-2.5'>
         <img src={a.image} alt="" className='h-[100px] rounded-2xl' />
         <div>
