@@ -41,7 +41,7 @@ export default function Details() {
     }
 
     return (
-        <div className="min-h-screen flex items-center justify-center p-6">
+        <div className="min-h-screen flex items-center justify-center p-6 py-26">
             <div className="relative w-full max-w-4xl min-h-[600px] rounded-3xl overflow-hidden">
 
                 {/* Animated Background */}
