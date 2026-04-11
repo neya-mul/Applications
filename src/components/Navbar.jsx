@@ -18,7 +18,7 @@ export default function Navbar() {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-purple-900/15 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <li><NavLink to="/" className={({ isActive }) =>
                             `mx-2 ${isActive ? " border border-purple-500" : "" } bg-purple-950/20 `
                         }>Home</NavLink></li>
