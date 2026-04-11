@@ -1,19 +1,30 @@
-import React, { use } from 'react'
+import React, { use, useContext } from 'react'
 import { Link, useParams } from 'react-router'
+import { InstallAppContext } from '../contexts/AppProvider'
 
 const appPromise = fetch('/data.json')
     .then(res => res.json())
 
+
 export default function Details() {
+    const {install, setInstall} = useContext(InstallAppContext)
+
+
     const { id } = useParams()
     const apps = use(appPromise)
     // console.log(apps);
     const expectedApp = apps.find(app => app.id == id)
-    console.log(expectedApp);
+    // console.log(expectedApp);
+    const installButton = () => {
+        // console.log(context);
+        console.log(install);
+        setInstall([...install, expectedApp])
+        
 
+    }
 
     return (
-         <div className="min-h-screen flex items-center justify-center p-6">
+        <div className="min-h-screen flex items-center justify-center p-6">
             <div className="relative w-full max-w-4xl min-h-[600px] rounded-3xl overflow-hidden">
 
                 {/* Animated Background */}
@@ -76,9 +87,11 @@ export default function Details() {
 
                         {/* Buttons */}
                         <div className="flex gap-3">
-                            <button className="flex-1 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 active:scale-95 transition-all duration-200 text-white font-medium text-sm hover:shadow-lg hover:shadow-purple-500/30">
-                                Download Now
-                            </button>
+                            <Link to="/install" className="flex-1">
+                                <button className="w-full py-3 rounded-xl bg-purple-600 hover:bg-purple-500 active:scale-95 transition-all duration-200 text-white font-medium text-sm hover:shadow-lg hover:shadow-purple-500/30" onClick={installButton}>
+                                    Install Now
+                                </button>
+                            </Link>
                             <Link to="/apps">
                                 <button className="py-3 px-4 rounded-xl border border-white/30 hover:bg-white/10 active:scale-95 transition-all duration-200 text-white text-sm">
                                     ← Back
