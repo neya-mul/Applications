@@ -4,13 +4,9 @@ import logo from '../images/logo.png'
 import { FaGithub } from 'react-icons/fa'
 
 export default function Navbar() {
-    const links = <>
-        <NavLink>Home</NavLink>
-        <NavLink>Apps</NavLink>
-        <NavLink>Install</NavLink>
-    </>
+   
     return (
-        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto">
+        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto p-5 fixed z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,7 +28,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <img src={logo} alt="" className='w-[50px] animate-spin [animation-duration:5s]' />
-                <NavLink to="/" className="btn btn-ghost text-xl">HERO.IO</NavLink>
+                <NavLink to="/" className="btn btn-ghost text-xl hover:bg-purple-900/15 ml-2">HERO.IO</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

@@ -26,18 +26,18 @@ export default function Rating() {
                 background: 'linear-gradient(135deg, #0d0d0d 0%, #1a0a2e 50%, #0d0d0d 100%)',
             }}
         >
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-center ">
 
                
                 <h2 className="text-4xl font-semibold text-purple-400 mb-14 leading-tight">
                     Trusted by millions,<br />built for you
                 </h2>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 ">
                     {stats.map((stat, i) => (
                         <div
                             key={i}
-                            className="rounded-2xl px-8 py-8 text-left"
+                            className="rounded-2xl px-8 py-8 text-left border border-purple-900 max-w-96 mx-auto shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-700"
                             style={{
                                 background: 'rgba(255,255,255,0.04)',
                                 border: '1px solid rgba(167,139,250,0.2)',
