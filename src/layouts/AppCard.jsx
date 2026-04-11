@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default function AppCard({ app }) {
     return (
+
         <div className="card border border-purple-900 max-w-96 mx-auto shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500"
             style={{ background: 'linear-gradient(145deg, #0d0d0d, #1a0a2e)' }}>
 
@@ -42,10 +44,10 @@ export default function AppCard({ app }) {
                 <p className="text-xs text-gray-500">{app.companyName}</p>
 
                 <div className="card-actions mt-1">
-                    <button className="btn btn-sm w-full text-white border-0"
+                    <Link to={`/apps/${app.id}`} className='w-full'> <button className="btn btn-sm w-full text-white border-0"
                         style={{ background: 'linear-gradient(135deg, #7c3aed, #a78bfa)' }}>
                         View Details
-                    </button>
+                    </button></Link>
                 </div>
 
             </div>

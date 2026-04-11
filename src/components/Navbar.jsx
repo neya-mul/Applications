@@ -25,7 +25,7 @@ export default function Navbar() {
 
                     </ul>
                 </div>
-                <img src={logo} alt="" className='w-[50px]'/>
+                <img src={logo} alt="" className='w-[50px] animate-spin [animation-duration:5s]'/>
                 <NavLink to="/" className="btn btn-ghost text-xl">HERO.IO</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -37,7 +37,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn"><FaGithub />Contribute</a>
+                <a className="btn bg-purple-900/15"><FaGithub />Contribute</a>
             </div>
         </div>
     )
