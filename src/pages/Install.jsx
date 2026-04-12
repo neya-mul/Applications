@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import AppProvider, { InstallAppContext } from '../contexts/AppProvider'
-import InsallAppCard from '../layouts/InsallAppCard'
+// import InsallAppCard from '../layouts/InstallAppCard'
 import { Link } from 'react-router'
+import InstallAppCard from '../layouts/InstallAppCard'
 
 export default function Install() {
   let apps = useContext(InstallAppContext)
@@ -31,7 +32,7 @@ export default function Install() {
               </Link>
             </div> :
 
-            app.map(a => <InsallAppCard a={a} key={a.id}></InsallAppCard>)
+            app.map(a => <InstallAppCard a={a} key={a.id}></InstallAppCard>)
 
           }
         </div>

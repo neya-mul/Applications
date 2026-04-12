@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import AppProvider, { InstallAppContext } from '../contexts/AppProvider'
 import { toast } from 'react-toastify'
 
-export default function InsallAppCard({ a }) {
+export default function InstallAppCard({ a }) {
   const { install, setInstall } = useContext(InstallAppContext)
   // console.log(install);
   const deletedApp = install.filter(i => i.id !== a.id)
