@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 export default function Navbar() {
    
     return (
-        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto fixed z-1 p-5">
+        <div className="navbar bg-[#1a0a2e] shadow-2xl mx-auto fixed z-11 p-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -14,7 +14,7 @@ export default function Navbar() {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-purple-900/15 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-[#1a0a2e]  rounded-box z-20 mt-3 w-52 p-2 shadow">
                         <li><NavLink to="/" className={({ isActive }) =>
                             `mx-2 ${isActive ? " border border-purple-500" : "" } bg-purple-950/20 `
                         }>Home</NavLink></li>
