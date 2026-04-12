@@ -30,7 +30,7 @@ export default function InstallAppCard({ a }) {
         </div>
       </div>
       <div>
-        <button className='btn bg-purple-950/20 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500' onClick={unInstallbutton}>Uninstall</button>
+        <button className='btn bg-purple-950/20 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500 hover:[box-shadow:0_0_20px_rgba(168,85,247,0.5)] transition-all duration-300' onClick={unInstallbutton}>Uninstall</button>
       </div>
     </div>
   )

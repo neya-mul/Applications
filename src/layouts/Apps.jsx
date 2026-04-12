@@ -12,7 +12,7 @@ export default function Apps() {
     const apps = use(appPromise)
     // setLoding(false)
 
- 
+
 
 
     return (
@@ -29,7 +29,7 @@ export default function Apps() {
                     }
                 </div>
                 <div className='text-center my-7'>
-                    <button className='btn bg-purple-950/20 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500'><Link to="apps">All Apps</Link></button>
+                    <button className='btn bg-purple-950/20 hover:shadow-purple-500/20 hover:shadow-2xl hover:border-purple-500 hover:[box-shadow:0_0_20px_rgba(168,85,247,0.5)] transition-all duration-300'><Link to="apps">All Apps</Link></button>
                 </div>
             </div>
 
