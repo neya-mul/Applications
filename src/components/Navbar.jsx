@@ -33,13 +33,13 @@ export default function Navbar() {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><NavLink to="/" className={({ isActive }) =>
-                        `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 `
+                        `mx-2 ${isActive ? " border border-purple-500" : ""} bg-purple-950/20 hover:[box-shadow:0_0_25px_rgba(168,85,247,0.5)] transition-hover duration-300`
                     }>Home</NavLink></li>
                     <li><NavLink to="/apps" className={({ isActive }) =>
-                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 `
+                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 hover:[box-shadow:0_0_25px_rgba(168,85,247,0.5)] transition-hover duration-300`
                     }>Apps</NavLink></li>
                     <li><NavLink to="/install" className={({ isActive }) =>
-                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 `
+                        `mx-2 ${isActive ? " border border-purple-500" : ""}  bg-purple-950/20 hover:[box-shadow:0_0_25px_rgba(168,85,247,0.5)] transition-hover duration-300`
                     }>Install</NavLink></li>
 
                 </ul>
